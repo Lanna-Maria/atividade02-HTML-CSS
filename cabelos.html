@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cabelos - Belleza Studio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fdf0f5, #fff9fb);
+      color: #333;
+    }
+
+    header {
+      background-color: #fde2e4;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #d6336c;
+    }
+
+    header p {
+      color: #7d2a4f;
+      font-style: italic;
+      margin-top: 10px;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .service-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .service-card h3 {
+      color: #c2185b;
+      margin-bottom: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .gallery img {
+      width: 250px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="index.html" style="text-decoration: none; color: #b4004e;">
+      ⬅ Voltar para a Página Inicial
+    </a>
+    <h1>Transforme Seus Cabelos com Estilo 💇‍♀️</h1>
+    <p>Do liso ao cacheado, do corte moderno à coloração ousada: seu cabelo, sua identidade!</p>
+  </header>
+
+  <section>
+    <h2 style="text-align:center; color: #ad1457;">Nossos Serviços</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Escova Modeladora</h3>
+        <p>Volume, brilho e movimento para um look sofisticado.</p>
+      </div>
+      <div class="service-card">
+        <h3>Corte Feminino</h3>
+        <p>Estilos personalizados que realçam sua beleza natural.</p>
+      </div>
+      <div class="service-card">
+        <h3>Coloração</h3>
+        <p>Transforme sua aparência com cores vibrantes e duradouras.</p>
+      </div>
+      <div class="service-card">
+        <h3>Hidratação Profunda</h3>
+        <p>Recupere a vitalidade e o brilho dos seus fios.</p>
+      </div>
+    </div>
+
+    <h2 style="text-align:center; color: #ad1457;">Inspire-se 💖</h2>
+    <div class="gallery">
+      <img src="https://acdn-us.mitiendanube.com/stores/002/132/746/products/6c6a219e8dfc8fe6a79e44b0ea783a52-8dafd6ef58d129655916811461003082-1024-1024.jpg" alt="Look 1">
+      <img src="https://belezamoderna.com.br/wp-content/uploads/2023/08/Corte-de-cabelo-em-camadas-1.jpeg" alt="Look 2">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9yo9kHFiK_xS8y-LzMVBUxLxlSbeQa3O-hA&s" alt="Look 3">
+      <img src="https://espacolili.com.br/site/uploads/2023/10/Hidratacao.png" alt="Look 4">
+    </div>
+  </section>
+</body>
+
+</html>
