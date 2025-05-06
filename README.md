@@ -1,35 +1,29 @@
-<h1>🌐 Projeto: Página Web com Multimídia e Navegação</h1>
-Curso Geração Tech - Módulo de HTML e CSS
+# 🌐 Projeto: Página Web com Multimídia e Navegação
+**Curso Geração Tech - Módulo de HTML e CSS**
 
-<h1>🎯 Objetivo</h1>
-Esta atividade tem como objetivo aplicar os conhecimentos adquiridos no módulo de HTML e CSS do curso Geração Tech, criando uma página web semântica, com elementos multimídia, estilização básica e navegação entre seções.
+## 🎯 Objetivo
+Esta atividade tem como objetivo aplicar os conhecimentos adquiridos no módulo de HTML e CSS do curso **Geração Tech**, criando uma página web semântica, com elementos multimídia, estilização básica e navegação entre seções.
 
-<h1>📚 O que foi desenvolvido</h1>
-Uma página HTML estruturada semanticamente com uso de tags como <header>, <nav>, <section>, <audio>, <video>, entre outras.
+## 📚 O que foi desenvolvido
 
-Um menu de navegação funcional com âncoras para diferentes seções da página.
+- Uma página HTML estruturada semanticamente com uso de tags como `<header>`, `<nav>`, `<section>`, `<audio>`, `<video>`, entre outras.
+- Um menu de navegação funcional com âncoras para diferentes seções da página.
+- Estilização básica inline, definida dentro da tag `<style>` no `<head>`.
+- Inclusão de elementos de mídia (áudio e vídeo) para enriquecer a experiência do usuário.
 
-Estilização básica inline, definida dentro da tag <style> no <head>.
+## 🚀 Como visualizar
 
-Inclusão de elementos de mídia (áudio e vídeo) para enriquecer a experiência do usuário.
+1. Abra o arquivo `index.html` em um navegador web.
+2. Navegue pelas seções da página usando o menu.
+3. Teste os elementos multimídia para garantir que áudio e vídeo funcionem corretamente.
+4. Verifique os estilos aplicados via CSS inline.
 
-<h1>🚀 Como visualizar</h1>
-Abra o arquivo index.html em um navegador web.
+## 💡 Dicas aplicadas
 
-Navegue pelas seções da página usando o menu.
+- Uso correto de tags semânticas.
+- Implementação de navegação interna.
+- Inclusão de mídias utilizando HTML5.
+- Aplicação de CSS inline básico.
 
-Teste os elementos multimídia para garantir que áudio e vídeo funcionem corretamente.
-
-Verifique os estilos aplicados via CSS inline.
-
-<h1>💡 Dicas aplicadas</h1>
-Uso correto de tags semânticas.
-
-Implementação de navegação interna.
-
-Inclusão de mídias utilizando HTML5.
-
-Aplicação de CSS inline básico.
-
-✅ Status
+## ✅ Status
 ✔️ Atividade concluída com sucesso.
